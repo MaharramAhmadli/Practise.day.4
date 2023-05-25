@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="page1">
+        <nav class="menu">
+            <img src="https://media.wired.com/photos/620eb0f39266d5d11c07b3c5/16:9/w_2399,h_1349,c_limit/Gear-Podcast-Gear-1327244548.jpg"
+                alt="" width="100%" height="656x">
+            <h2>Podca</h2>
+            <i class="las la-bars"><a href="#"></a></i>
+        </nav>
+
+        <h1>Episode 09: How To Create <br> Web Page Using Bootstrap 4</h1>
+        <p>By Mike Smith | 16 September 2017 | 1:30:20</p>
+        <button>READ THE TRANSCRIPT</button>
+    </section>
+
+
+    <section class="page2">
+        <div class="firstaudio">
+            <i class="las la-play"></i>
+            <span>00:00</span>
+            <div class="mini"></div>
+            <i class="las la-volume-up"></i>
+            <span>0000</span>
+        </div>
+    </section>
+
+    <h1 class="rec">Recent Podcats</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="card mb-3" style="max-width: 100%">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tcs5U7MDN1i1HXcKhIBkQmliIWGLu8-eVQ&usqp=CAU"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Episode 08: How To Create Web Page Using Bootstrap 4</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                                repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi
+                                tenetur, nesciunt.</p>
+
+                            <div class="firstaudio">
+                                <i class="las la-play"></i>
+                                <span>00:00</span>
+                                <div class="mini"></div>
+                                <i class="las la-volume-up"></i>
+                                <span>0000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 100%">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Episode 08: How To Create Web Page Using Bootstrap 4</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                                repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi
+                                tenetur, nesciunt.</p>
+
+                            <div class="firstaudio">
+                                <i class="las la-play"></i>
+                                <span>00:00</span>
+                                <div class="mini"></div>
+                                <i class="las la-volume-up"></i>
+                                <span>0000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 100%">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="data:image/jpeg;base64,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"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Episode 08: How To Create Web Page Using Bootstrap 4</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                                repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi
+                                tenetur, nesciunt.</p>
+
+                            <div class="firstaudio">
+                                <i class="las la-play"></i>
+                                <span>00:00</span>
+                                <div class="mini"></div>
+                                <i class="las la-volume-up"></i>
+                                <span>0000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 100%">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuXPyvICvTtQDawdQel2yI_GkvFO_lRsvafg&usqp=CAU"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Episode 08: How To Create Web Page Using Bootstrap 4</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                                repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi
+                                tenetur, nesciunt.</p>
+
+                            <div class="firstaudio">
+                                <i class="las la-play"></i>
+                                <span>00:00</span>
+                                <div class="mini"></div>
+                                <i class="las la-volume-up"></i>
+                                <span>0000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3" style="max-width: 100%">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuRITgg7TerBGDmWd0BdGRJA-c2czqKBiJrw&usqp=CAU"
+                            class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Episode 08: How To Create Web Page Using Bootstrap 4</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                                repellat mollitia consequatur, optio nesciunt placeat. Iste voluptates excepturi
+                                tenetur, nesciunt.</p>
+
+                            <div class="firstaudio">
+                                <i class="las la-play"></i>
+                                <span>00:00</span>
+                                <div class="mini"></div>
+                                <i class="las la-volume-up"></i>
+                                <span>0000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button>prev</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>next</button>
+            </div>
+            <section>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="page5 ">
+                            <div class="page-head">
+                                <h1>Behind The Mic</h1>
+                            </div>
+                            <div class="page-body">
+                                <div class="img-item d-flex">
+                                   
+                                    <div class="col-md-4 hov">
+                                        <div class="hover-box">
+                                        <div class="page-img">
+                                            <img src="https://preview.colorlib.com/theme/podca/images/person_2.jpg.webp"alt="" class="image">
+                                        </div>
+                                        <div class="middle">
+                                            <h2>Megan Smith</h2>
+                                            <h4>Creative Director</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit ullam
+                                                reprehenderit nemo.</p>
+                                                <div class="imgicon">
+                                                    <i class="lab la-facebook"></i>
+                                                    <i class="lab la-twitter"></i>
+                                                    <i class="lab la-instagram"></i>
+                                               </div>
+                                        </div>
+                                       
+                                    </div>
+                                 </div>
+
+
+                                    <div class="col-md-4">
+                                        <div class="hover-box">
+                                        <div class="page-img">
+                                            <img src="https://preview.colorlib.com/theme/podca/images/person_2.jpg.webp"
+                                              class="image"  alt="">
+                                        </div>
+                                        <div class="middle">
+                                            <h2>Megan Smith</h2>
+                                            <h4>Creative Director</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit ullam
+                                                reprehenderit nemo.</p>
+                                                <div class="imgicon">
+                                                    <i class="lab la-facebook"></i>
+                                                    <i class="lab la-twitter"></i>
+                                                    <i class="lab la-instagram"></i>
+                                               </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4 ">
+                                        <div class="hover-box">
+                                        <div class="page-img">
+                                            <img src="https://preview.colorlib.com/theme/podca/images/person_2.jpg.webp"
+                                               class="image" alt="">
+                                        </div>
+                                        <div class="middle">
+                                            <h2>Megan Smith</h2>
+                                            <h4>Creative Director</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit ullam
+                                                reprehenderit nemo.</p>
+                                                <div class="imgicon">
+                                                    <i class="lab la-facebook"></i>
+                                                    <i class="lab la-twitter"></i>
+                                                    <i class="lab la-instagram"></i>
+                                               </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item2 d-flex">
+                                    <div class="col-md-4">
+                                        <div class="hover-box">
+                                        <div class="page-img">
+                                            <img src="https://preview.colorlib.com/theme/podca/images/person_2.jpg.webp"
+                                             class="image"   alt="">
+                                        </div>
+                                        <div class="middle">
+                                            <h2>Megan Smith</h2>
+                                            <h4>Creative Director</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit ullam
+                                                reprehenderit nemo.</p>
+                                                <div class="imgicon">
+                                                    <i class="lab la-facebook"></i>
+                                                    <i class="lab la-twitter"></i>
+                                                    <i class="lab la-instagram"></i>
+                                               </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="hover-box">
+                                        <div class="page-img">
+                                            <img src="https://preview.colorlib.com/theme/podca/images/person_2.jpg.webp"
+                                              class="image"  alt="">
+                                        </div>
+                                        <div class="middle">
+                                            <h2>Megan Smith</h2>
+                                            <h4>Creative Director</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit ullam
+                                                reprehenderit nemo.</p>
+                                                <div class="imgicon">
+                                                    <i class="lab la-facebook"></i>
+                                                    <i class="lab la-twitter"></i>
+                                                    <i class="lab la-instagram"></i>
+                                               </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="hover-box">
+                                        <div class="page-img">
+                                            <img src="https://preview.colorlib.com/theme/podca/images/person_2.jpg.webp"
+                                             class="image"   alt="">
+                                        </div>
+                                        <div class="middle">
+                                            <h2>Megan Smith</h2>
+                                            <h4>Creative Director</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit ullam
+                                                reprehenderit nemo.</p>
+                                                <div class="imgicon">
+                                                    <i class="lab la-facebook"></i>
+                                                    <i class="lab la-twitter"></i>
+                                                    <i class="lab la-instagram"></i>
+                                               </div>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+                crossorigin="anonymous"></script>
+            <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

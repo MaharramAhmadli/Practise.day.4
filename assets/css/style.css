@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: rgb(248, 0, 0);
+}
+
+::selection {
+  background-color: rgb(248, 0, 0);
+}
+
+.page1 h2 {
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  margin: 60px;
+  margin-left: 30px;
+  color: white;
+  padding-left: 30px;
+}
+.page1 .las {
+  position: absolute;
+  color: white;
+  left: 90%;
+  font-size: 20px;
+  margin-top: 70px;
+}
+.page1 h1 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: white;
+}
+
+.page1 p {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  color: white;
+}
+.page1 button {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  height: 50px;
+  width: 250px;
+  color: white;
+  background-color: rgb(248, 0, 0);
+}
+
+.page2 .firstaudio {
+  width: 50%;
+  height: 10vh;
+  background-color: black;
+  margin-left: 30%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.page2 .firstaudio .mini {
+  background-color: grey;
+  width: 80%;
+  height: 10px;
+  margin-left: 2%;
+}
+
+.firstaudio span {
+  color: white;
+}
+.firstaudio .las {
+  color: white;
+}
+
+.rec {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.firstaudio {
+  width: 70%;
+  height: 10vh;
+  background-color: black;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.firstaudio .mini {
+  background-color: grey;
+  width: 80%;
+  height: 10px;
+  margin-left: 2%;
+}
+
+.row img {
+  width: 100%;
+}
+
+button {
+  border-radius: 20%;
+  margin: 40px;
+  padding: 19px;
+  border: 20px;
+}
+
+.hover-box {
+  background-color: red;
+  position: relative;
+  width: 100%;
+}
+.hover-box:hover .image {
+  opacity: 0.3;
+}
+.hover-box:hover:hover .middle {
+  opacity: 1;
+}
+.hover-box .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.hover-box .middle {
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hover-box .middle h2 {
+  margin: 10px 0;
+}
+.hover-box .middle h4 {
+  margin: 10px 0;
+}
+.hover-box .middle p {
+  margin: 10px 0;
+}/*# sourceMappingURL=style.css.map */
